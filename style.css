@@ -1,0 +1,13 @@
+main {
+    background-color: #f5f5f5; /* Light gray background */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+body {
+    background-color: rgba(164, 156, 156, 0.987);
+}
+
+.bg-dark {
+    background-color: #020948 !important; /* Dark blue background */
+}
+
