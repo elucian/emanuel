@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
       for (let i = startIndex; i <= endIndex; i++) {
         const imageUrl = `${baseUrl}picture${i}.jpeg`;
-        console.log(imageUrl);
 
         const carouselItem = document.createElement('div');
         carouselItem.classList.add('carousel-item');
