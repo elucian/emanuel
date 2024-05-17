@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const carouselInner = document.querySelector('.carousel-inner');
   
     function loadImages() {
-      const baseUrl = '/photo/';
+      const baseUrl = './photo/';
       const startIndex = 1; // Adjust this value based on your naming convention
       const endIndex = 36; // Adjust this value based on the number of images
 
@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       for (let i = startIndex; i <= endIndex; i++) {
         const imageUrl = `${baseUrl}picture${i}.jpeg`;
+        console.log(imageUrl);
 
         const carouselItem = document.createElement('div');
         carouselItem.classList.add('carousel-item');
