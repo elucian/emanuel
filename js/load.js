@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     // Function to load images from the ../photo folder
     function loadImages() {
-      const photoFolder = '../photo';
+      const photoFolder = '/photo';
       const fileExtensions = ['.jpg', '.jpeg', '.png', '.gif']; // Add more extensions if needed
   
       fetch(photoFolder)
